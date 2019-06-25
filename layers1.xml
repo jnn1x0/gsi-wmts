@@ -2,7 +2,7 @@
 <Capabilities version="1.0.0" xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
     <ows:Title>layers0</ows:Title>
-    <ows:Abstract>WMTSで配信されている地理院タイルのメタデータです。</ows:Abstract>
+    <ows:Abstract>国土地理院がWMTS形式で配信している地理院タイルのメタデータです。</ows:Abstract>
     <ows:Keywords>
       <ows:Keyword>gsi</ows:Keyword>
       <ows:Keyword>WMTS</ows:Keyword>
