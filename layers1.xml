@@ -220,8 +220,9 @@
         <MatrixHeight>262144</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
+
     <Layer>
-      <ows:Title>標準地図</ows:Title>
+      <ows:Title>地理院タイル（標準地図）</ows:Title>
       <ows:Identifier>std</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
@@ -232,8 +233,9 @@
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
+
     <Layer>
-      <ows:Title>写真</ows:Title>
+      <ows:Title>地理院タイル（写真）</ows:Title>
       <ows:Identifier>seamlessphoto</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>120 20</ows:LowerCorner>
@@ -248,8 +250,94 @@
       </TileMatrixSetLink>
       <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
+
     <Layer>
-      <ows:Title>災害復興計画基図</ows:Title>
+      <ows:Title>地理院タイル（東日本大震災後正射画像（2013年9月～2013年12月撮影））</ows:Title>
+      <ows:Identifier>toho4</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Format>image/jpg</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho4/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+    </Layer>
+
+    <Layer>
+      <ows:Title>地理院タイル（東日本大震災後正射画像（2012年10月～2013年5月撮影））</ows:Title>
+      <ows:Identifier>toho3</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Format>image/jpg</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho3/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+    </Layer>
+
+    <Layer>
+      <ows:Title>地理院タイル（東日本大震災後正射画像（2011年5月～2012年4月撮影））</ows:Title>
+      <ows:Identifier>toho2</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Format>image/jpg</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho2/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+    </Layer>
+
+    <Layer>
+      <ows:Title>地理院タイル（東日本大震災後正射画像（2011年3月～2011年4月撮影））</ows:Title>
+      <ows:Identifier>toho1</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Format>image/jpg</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho1/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+    </Layer>
+
+      <Layer>
+        <ows:Title>地理院タイル（森林（国有林）の空中写真（林野庁））</ows:Title>
+        <ows:Identifier>rinya</ows:Identifier>
+        <ows:WGS84BoundingBox>
+          <ows:LowerCorner>120 20</ows:LowerCorner>
+          <ows:UpperCorner>154 50</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+        <Styles isDefault="true">
+          <ows:Identifier>default</ows:Identifier>
+        </Styles>
+        <Format>image/jpg</Format>
+        <TileMatrixSetLink>
+          <TileMatrixSet>z2to18</TileMatrixSet>
+        </TileMatrixSetLink>
+        <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/rinya/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      </Layer>
+
+    <Layer>
+      <ows:Title>地理院タイル（災害復興計画基図）</ows:Title>
       <ows:Identifier>fukkokizu</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
@@ -260,8 +348,9 @@
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/fukkokizu/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
+
     <Layer>
-      <ows:Title>淡色地図</ows:Title>
+      <ows:Title>地理院タイル（淡色地図）</ows:Title>
       <ows:Identifier>pale</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
@@ -272,8 +361,9 @@
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/pale/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
+
     <Layer>
-      <ows:Title>白地図</ows:Title>
+      <ows:Title>地理院タイル（白地図）</ows:Title>
       <ows:Identifier>blank</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>120 20</ows:LowerCorner>
@@ -288,5 +378,58 @@
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
+
+    <Layer>
+      <ows:Title>地理院タイル（色別標高図）</ows:Title>
+      <ows:Identifier>relief</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+
+    <Layer>
+      <ows:Title>地理院タイル（陰影起伏図）</ows:Title>
+      <ows:Identifier>hillshademap</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/hillshademap/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+
+    <Layer>
+      <ows:Title>地理院タイル（傾斜量図）</ows:Title>
+      <ows:Identifier>slopemap</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/slopemap/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+
+    <Layer>
+      <ows:Title>シームレス地質図</ows:Title>
+      <ows:Identifier>seamlesschishitsu</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://gbank.gsj.jp/seamless/v2/api/1.2/tiles/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+
   </Contents>
 </Capabilities>
